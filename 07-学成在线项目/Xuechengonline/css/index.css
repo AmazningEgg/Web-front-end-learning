@@ -339,3 +339,14 @@ h1 {
     float: left;
     margin-left: 120px;
 }
+
+/* 课程模块 hot 定位小图 */
+.box .content li {
+    position: relative;
+}
+
+.box .content li .hot {
+    position: absolute;
+    right: -4px;
+    top: 4px;
+}
